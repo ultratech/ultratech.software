@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Rodrigo Delduca">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultratech Software</title>
+  </head>
+  <body style="height: 100%; margin: 0; overflow: hidden; background-color: #000; ">
+    <canvas id="display" style="display: block; width: 66%; height: 100%; margin: auto;" />
+    <script type="text/javascript" src="segment-display.js"></script>
+    <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var canvas = document.getElementById("display");
+      canvas.width  = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      var display = new SegmentDisplay("display");
+      display.pattern         = '#'.repeat(document.title.length);
+      display.value           = document.title;
+      /* {{{ */
+      display.displayAngle    = 15;
+      display.digitHeight     = 50;
+      display.digitWidth      = 50;
+      display.digitDistance   = 10;
+      display.segmentWidth    = 5;
+      display.segmentDistance = 2;
+      display.segmentCount    = 14;
+      display.cornerType      = 3;
+      /* }}} */
+      display.colorOn         = "#ff2c0f";
+      display.colorOff        = "#631605";
+      display.draw();
+    });
+    </script>
+  </body>
+</html>
