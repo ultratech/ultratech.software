@@ -27,6 +27,8 @@ jobs:
         uses: actions/setup-node@v4
       - name: Run Jampack
         run: npx @divriots/jampack .
+      - name: Clean up
+        run: rm -rf .jampack
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
