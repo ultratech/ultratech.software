@@ -1,40 +1,252 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ultratech Software">
-    <title>Ultratech Software</title>
-    <style>
-      body {
-        background-color: black;
-        margin: 0;
-      }
-      .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
-      .macintosh {
-        width: 480px;
-        height: 628px;
-      }
-      .matrix {
-        width: 560px;
-        height: 560px;
-      }
-    </style>
-  </head>
-  <body>
-    <div>
-      <div class="container">
-        <img class="macintosh" src="macintosh.avif" alt="Ultratech Software">
-      </div>
+<html lang="en">
 
-      <div class="container">
-        <img class="matrix" src="matrix.png" alt="Rodrigo Delduca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fiverr</title>
+  <link rel="stylesheet" href="./css/slider.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <section class="hero-section">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="img-box text-center"> <img src="./img/counter.png" alt="" class="img-fluid desk">
+            <p class="text-center main"><img src="./img/counter-m.png" alt="" class="img-fluid mobil"></p>
+            <div class="product-shadow"></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="content">
+            <h2>Ultratech Software</h2>
+            <p>Ultratech Software is a company focused on developing advanced software solutions. We specialize in
+              embedded systems, desktop applications, gamming, distributed computing, and cloud computing. We are
+              experts in C, C++, Python, Go, TypeScript including Node.js and Nest.js, React with Next.js, Kubernetes,
+              and serverless technologies like cloud functions and lambda. </p>
+            <a href="#" aria-label="Know-more">Know more&gt;&gt;&gt;</a>
+          </div>
+        </div>
       </div>
     </div>
-  </body>
+  </section>
+  <section class="testimonial">
+    <div class="container">
+      <div class="row">
+        <div class="col testimonial-heading">
+          <h2>Explore <span>Our Expertise</span></h2>
+        </div>
+        <div class="col testimonial-sub-heading">
+          <p>From Redis to TensorFlow, explore databases, Big Data, and machine learning with us.</p>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-content ">
+      <div class="container">
+        <div class="wrapper">
+          <!-- <i id="left" class="fa-solid fa-angle-left"></i> -->
+          <ul class="carousel">
+            <li class="card" id="ome">
+              <h3>Database Expertise</h3>
+              <p>Benefit from our mastery of NoSQL (Redis, DynamoDB, Cosmos, Firestore) and SQL (Postgres with
+                Timescale) databases for efficient data management and analytics.</p>
+
+              <a href="#" class="Know-more">Know more&gt;&gt;&gt;</a>
+            </li>
+            <li class="card">
+              <h3>Big Data & Analytics</h3>
+              <p>Leverage our expertise in BigQuery and cutting-edge tools (Pandas, NumPy, TensorFlow) to unlock
+                insights from vast datasets, driving informed decision-making.</p>
+
+              <a href="#" class="Know-more">Know more&gt;&gt;&gt;</a>
+            </li>
+            <li class="card">
+              <h3>Database Expertise</h3>
+              <p>Benefit from our mastery of NoSQL (Redis, DynamoDB, Cosmos, Firestore) and SQL (Postgres with
+                Timescale) databases for efficient data management and analytics.</p>
+
+              <a href="#" class="Know-more">Know more&gt;&gt;&gt;</a>
+            </li>
+
+
+          </ul>
+          <div class="indicator"> 
+            <span class="btn active"></span>
+           <span class="btn"><a href="#ome"></a></span>
+            <span class="btn "></span>
+          </div>
+
+          <!-- <i id="right" class="fa-solid fa-angle-right"></i> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team">
+    <div class="container">
+      <div class="row">
+        <div class="col col-1">
+          <div class="content">
+            <h2>Meet Our Team</h2>
+            <p>At Ultratech Software, our team is comprised of dedicated professionals with a passion for innovation and
+              excellence.</p>
+          </div>
+        </div>
+        <div class="col col-2">
+          <div class="cards">
+            <div class="box">
+              <div class="img-box"> <img src="./img/team1.png" alt="John Doe"> </div>
+              <div class="cont-box">
+                <h2>John Doe</h2>
+                <span>Lead Software Engineer</span>
+                <p class="desk">With 10+ years' experience, John drives our team to exceed client expectations with
+                  innovative solutions.</p>
+              </div>
+              <div class="mob">
+                <p>With 10+ years' experience, John drives our team to exceed client expectations with innovative
+                  solutions.</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box"> <img src="./img/team2.png" alt="Emily Smith"> </div>
+              <div class="cont-box">
+                <h2>Emily Smith</h2>
+                <span>Data Scientist</span>
+                <p class="desk">Emily is a passionate data scientist with a background in machine learning and
+                  analytics. </p>
+              </div>
+              <div class="mob">
+                <p>Emily is a passionate data scientist with a background in machine learning and analytics. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="ready">
+    <div class="coverr">
+      <div class="container">
+        <div class="row">
+          <div class="col ready-section-column-left">
+            <div class="content">
+              <h2>Ready to Transform <span>Your Business?</span></h2>
+              <p>Get in touch with our experts today to discuss your project requirements and take the first step
+                towards digital transformation.</p>
+              <a href="#" aria-label="Get-in-Touch">
+                <button> Get in touch </button>
+              </a>
+            </div>
+          </div>
+          <div class="col text-center ready-section-column-right"> <img src="./img/counter.png" alt=""
+              class="img-fluid desk"> <img src="./img/cc-m.png" alt="" class="img-fluid mobil"> </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="shap-desk-version"></div>
+    <div class="shap-mobile-version"></div>
+  </section>
+  <div class="footer">
+    <div class="container">
+      <div class="footer-box">
+        <p>@2024 Ultratech Software. All Rights Reserved.</p>
+        <a href="#" aria-label="email-us"><img src="./img/mail.svg" alt=""></a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script>
+    const wrapper = document.querySelector(".wrapper");
+    const carousel = document.querySelector(".carousel");
+    const firstCardWidth = carousel.querySelector(".card").offsetWidth;
+    const arrowBtns = document.querySelectorAll(".wrapper i");
+    const carouselChildrens = [...carousel.children];
+
+    let isDragging = false, isAutoPlay = true, startX, startScrollLeft, timeoutId;
+
+    // Get the number of cards that can fit in the carousel at once
+    let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
+
+    // Insert copies of the last few cards to beginning of carousel for infinite scrolling
+    carouselChildrens.slice(-cardPerView).reverse().forEach(card => {
+      carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
+    });
+
+    // Insert copies of the first few cards to end of carousel for infinite scrolling
+    carouselChildrens.slice(0, cardPerView).forEach(card => {
+      carousel.insertAdjacentHTML("beforeend", card.outerHTML);
+    });
+
+    // Scroll the carousel at appropriate postition to hide first few duplicate cards on Firefox
+    carousel.classList.add("no-transition");
+    carousel.scrollLeft = carousel.offsetWidth;
+    carousel.classList.remove("no-transition");
+
+    // Add event listeners for the arrow buttons to scroll the carousel left and right
+    arrowBtns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        carousel.scrollLeft += btn.id == "left" ? -firstCardWidth : firstCardWidth;
+      });
+    });
+
+    const dragStart = (e) => {
+      isDragging = true;
+      carousel.classList.add("dragging");
+      // Records the initial cursor and scroll position of the carousel
+      startX = e.pageX;
+      startScrollLeft = carousel.scrollLeft;
+    }
+
+    const dragging = (e) => {
+      if (!isDragging) return; // if isDragging is false return from here
+      // Updates the scroll position of the carousel based on the cursor movement
+      carousel.scrollLeft = startScrollLeft - (e.pageX - startX);
+    }
+
+    const dragStop = () => {
+      isDragging = false;
+      carousel.classList.remove("dragging");
+    }
+
+    const infiniteScroll = () => {
+      // If the carousel is at the beginning, scroll to the end
+      if (carousel.scrollLeft === 0) {
+        carousel.classList.add("no-transition");
+        carousel.scrollLeft = carousel.scrollWidth - (2 * carousel.offsetWidth);
+        carousel.classList.remove("no-transition");
+      }
+      // If the carousel is at the end, scroll to the beginning
+      else if (Math.ceil(carousel.scrollLeft) === carousel.scrollWidth - carousel.offsetWidth) {
+        carousel.classList.add("no-transition");
+        carousel.scrollLeft = carousel.offsetWidth;
+        carousel.classList.remove("no-transition");
+      }
+
+      // Clear existing timeout & start autoplay if mouse is not hovering over carousel
+      clearTimeout(timeoutId);
+      if (!wrapper.matches(":hover")) autoPlay();
+    }
+
+    const autoPlay = () => {
+      if (window.innerWidth < 800 || !isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
+      // Autoplay the carousel after every 2500 ms
+      timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 2500);
+    }
+    autoPlay();
+
+    carousel.addEventListener("mousedown", dragStart);
+    carousel.addEventListener("mousemove", dragging);
+    document.addEventListener("mouseup", dragStop);
+    carousel.addEventListener("scroll", infiniteScroll);
+    wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
+    wrapper.addEventListener("mouseleave", autoPlay);
+  </script>
+
+</body>
+
 </html>
