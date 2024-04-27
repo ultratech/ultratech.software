@@ -1,11 +1,15 @@
 @font-face {
     font-family: "Fixedsys Excelsior 3.01";
-    src: url('../fonts/FSEX300.woff');
+    src: url('../fonts/FSEX300.woff2'),
+    url('../fonts/FSEX300.woff');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'BIG SHOT';
-    src: url('../fonts/big-shot.woff');
+    src: url('../fonts/big-shot.woff2')
+    ,url('../fonts/big-shot.woff');
+    font-display: swap;
 }
 
 body {
@@ -28,8 +32,9 @@ body {
     display: flex;
 }
 
-.img-fluid {
+.image-fluid {
     max-width: 100%;
+    object-fit: contain;
 }
 .hero-section {
 	background: #000000;
@@ -163,11 +168,11 @@ p {
     padding-bottom: 50px;
 }
 
-.team .col.col-1 {
+.team .column.column-1 {
     width: 40%;
 }
 
-.team .col.col-2 {
+.team .column.column-2 {
     width: 55%;
 }
 
@@ -187,7 +192,7 @@ p {
     margin-top: 30px;
 }
 
-.img-fluid.mobil {
+.image-fluid.mobile {
     display: none;
 }
 
@@ -208,18 +213,20 @@ p {
     align-items: center;
 }
 
-.team .cards .box .cont-box {
+.team .cards .box .content-box {
     padding: 36px 38px;
     width: 66%;
 }
 
-.team .cards .box .img-box img {
+.team .cards .box .image-box img {
     width: 100%;
     height: 100%;
     border-radius: 19px;
     border: 11px solid #00AE3D;
     box-sizing: border-box;
+    object-fit: cover;
 }
+
 
 .ready .content {
 	margin-top: 50px;
@@ -246,7 +253,7 @@ text-align: left;
 color: #fff;
 }
 
-.mob {
+.mobile {
     display: none;
 }
 
@@ -254,8 +261,10 @@ color: #fff;
 	position: relative;
 }
 
-.hero-section .img-box img.desk {
-	width: 336px;
+.hero-section .image-box img.desktop {
+    height: auto;
+    width: 336px;
+    object-fit: contain;
 }
 
 .testimonial {
@@ -265,7 +274,7 @@ color: #fff;
 	position: relative;
 	overflow: hidden;
 }
-.team .cards .box .cont-box h2 {
+.team .cards .box .content-box h2 {
     font-family: 'BIG SHOT';
     font-size: 32px;
     font-weight: 400;
@@ -275,10 +284,12 @@ color: #fff;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
-.img-fluid.desk {
+.image-fluid.desktop {
 	width: 65%;
+    height: auto;
+    object-fit: contain;
 }
-.team .cards .box .cont-box span {
+.team .cards .box .content-box span {
     font-family: 'BIG SHOT';
     font-size: 18px;
     font-weight: 400;
@@ -289,11 +300,15 @@ color: #fff;
     display: block;
 }
 
-.team .cards .box .img-box {
-    width: 50%;
+.team .cards .box .image-box {
+    width:100%;
+    height: auto;
+    object-position: center;
+    object-fit: contain;
 }
-.ready .desk {
-	width: 331px;
+.ready .desktop {
+	width: 332px;
+    object-fit: contain;
 	position: relative;
 	z-index: 1;
 }
@@ -301,12 +316,13 @@ color: #fff;
 .coverr {
 	padding: 100px 0px;
 }
-.team .cards .box .img-box {
+.team .cards .box .image-box {
     width: 34%;
+    height: auto;
     border-radius: 30px;
 }
 
-.team .cards .box .cont-box p {
+.team .cards .box .content-box p {
     font-family: 'Fixedsys Excelsior 3.01';
     font-size: 24px;
     font-weight: 400;
@@ -425,7 +441,7 @@ color: #fff;
         line-height: 69.66px;
     }
 
-    .team .cards .box .cont-box {
+    .team .cards .box .content-box {
         width: 60%;
     }
 
@@ -433,29 +449,29 @@ color: #fff;
         align-items: normal;
     }
 
-    .team .cards .box .cont-box p {
+    .team .cards .box .content-box p {
         font-size: 20px;
         line-height: 25.8px;
 
 
     }
 
-    .team .cards .box .cont-box span {
+    .team .cards .box .content-box span {
         font-size: 16px;
         line-height: 18px;
         margin-bottom: 7px;
     }
 
-    .team .cards .box .cont-box p {
+    .team .cards .box .content-box p {
         font-size: 20px;
         line-height: 25.8px;
     }
 
-    .team .cards .box .img-box {
+    .team .cards .box .image-box {
         width: 35%;
     }
 
-    .team .cards .box .cont-box {
+    .team .cards .box .content-box {
         padding: 28px 25px;
         width:calc(65% - 25px);
     }
@@ -499,12 +515,12 @@ color: #fff;
         line-height: 29.2px;
     }
 
-    .team .cards .box .cont-box h4 {
+    .team .cards .box .content-box h4 {
         font-size: 28px;
         line-height: 29.33px;
     }
 
-    .team .cards .box .cont-box span {
+    .team .cards .box .content-box span {
         font-size: 16px;
         font-weight: 400;
         line-height: 18px;
@@ -519,7 +535,7 @@ color: #fff;
         padding: 41px 0px;
     }
 
-    .team .cards .box .cont-box p {
+    .team .cards .box .content-box p {
         font-size: 20px;
         line-height: 25.8px;
     }
@@ -548,7 +564,7 @@ color: #fff;
         text-align: center;
     }
 
-    .team .col.col-2 {
+    .team .column.column-2 {
         width: 100%;
     }
 
@@ -557,7 +573,7 @@ color: #fff;
         text-align: center;
     }
 
-    .team .col.col-1 {
+    .team .column.column-1 {
         width: 100%;
     }
 
@@ -600,7 +616,7 @@ color: #fff;
 
 
 @media screen and (max-width:768px) {
-    .img-fluid.mobil {
+    .image-fluid.mobile {
         display: block;
     }
 
@@ -615,15 +631,23 @@ color: #fff;
         padding-bottom: 44px;
     }
 
-    .img-fluid.mobil {
+    .image-fluid.mobile {
         display: block;
         margin: 0px auto;
         position: relative;
         z-index: 2;
+        object-fit: contain;
     }
 
-    .img-fluid.desk {
+    .hero-section .image-box img.desktop {
+        width: 9rem;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .desktop-footer, .desktop-paragraph{
         display: none;
+        pointer-events: none;
     }
 
 
@@ -668,39 +692,36 @@ color: #fff;
         margin-bottom: 20px;
     }
 
-    .mob {
+    .mobile {
         display: block;
         padding-top: 10px;
     }
 
-    .desk {
-        display: none;
-    }
     .team .cards .box {
         display: block;
         margin-bottom: 28px;
         padding: 20px;
     }
 
-    .mob p {
+    .mobile p {
         font-family: 'Fixedsys Excelsior 3.01';
-font-size: 12px;
-font-weight: 400;
-line-height: 14.4px;
-text-align: left;
-color: #fff;
-    }
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.4px;
+        text-align: left;
+        color: #fff;
+            }
 
-    .team .cards .box .cont-box {
+    .team .cards .box .content-box {
         padding: 0px;
         width: 50%;
     }
 
-    .team .cards .box .img-box {
+    .team .cards .box .image-box {
         display: inline-block;
         width: 30%;
     }
-    .team .cards .box .cont-box {
+    .team .cards .box .content-box {
         display: inline-block;
         width: 46%;
         position: relative;
@@ -709,7 +730,7 @@ color: #fff;
     }
  
 
-    .team .cards .box .cont-box h4 {
+    .team .cards .box .content-box h4 {
         font-size: 18px;
         font-weight: 400;
         line-height: 21px;
@@ -723,19 +744,19 @@ color: #fff;
 
     }
 
-    .team .cards .box .cont-box span{
-font-size: 14px;
-font-weight: 400;
-line-height: 17.47px;
-text-align: left;
+    .team .cards .box .content-box span{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.47px;
+    text-align: left;
 
     }
 
     .ready .content h2{
-font-size: 22px;
-font-weight: 400;
-line-height: 25.66px;
-text-align: left;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.66px;
+    text-align: left;
     }
 
     .ready .ready-section-column-left {
@@ -755,10 +776,10 @@ text-align: left;
         text-align: left;
     }
     .ready .content p{
-font-size: 14px;
-font-weight: 400;
-line-height: 18.2px;
-text-align: left;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.2px;
+        text-align: left;
 
     }
     .ready .ready-section-column-right {
@@ -766,12 +787,12 @@ text-align: left;
         text-align: center;
         padding-top: 10px;
     }
-    .team .col.col-2 {
+    .team .column.column-2 {
         width: auto;
     }
 
     
-    .team .col.col-1 {
+    .team .column.column-1 {
         width: auto;
     }
     .footer-box p {
@@ -787,6 +808,7 @@ text-align: left;
 
     .footer-box img {
         width: 38px;
+        height: auto;
     }
 
     .testimonial p {
@@ -794,11 +816,11 @@ text-align: left;
         line-height: 18.2px;
     }
 
-    .team .cards .box .img-box img {
+    .team .cards .box .image-box img {
         border: 4px solid #00AE3D;
     }
 
-    .team .cards .box .cont-box h2 {
+    .team .cards .box .content-box h2 {
         font-size: 18px;
         line-height: 21.33px;
     }
@@ -817,8 +839,12 @@ text-align: left;
         width: 100% !important;
     }
     .product-shadow{
-        display: none;
+        height: 5.5em;
+        width: 90%;
+        margin-left:auto ;
+        margin-right: auto;
     }
+
 
     
 }

@@ -181,6 +181,7 @@ text-decoration: none;
     .wrapper .carousel {
         width: 100%;
         box-sizing: border-box;
+        padding-bottom: 3px;
 
     }
     .wrapper {
@@ -188,7 +189,7 @@ text-decoration: none;
         box-sizing: border-box;
     }
 
-    .indicator .btn {
+    .indicator .button {
         display: inline-block;
         width: 13px;
         height: 13px;
