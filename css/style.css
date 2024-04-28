@@ -1,12 +1,12 @@
 @font-face {
-  font-family: "Fixedsys Excelsior 3.01";
-  src: url("../fonts/FSEX300.woff2"), url("../fonts/FSEX300.woff");
+  font-family: "fixedsys";
+  src: url("../fonts/fixedsys.woff2"), url("../fonts/Fixedsys.woff");
   font-display: swap;
 }
 
 @font-face {
-  font-family: "BIG SHOT";
-  src: url("../fonts/big-shot.woff2"), url("../fonts/big-shot.woff");
+  font-family: "shout out";
+  src: url("../fonts/shout-out.woff2"), url("../fonts/shout-out.woff");
   font-display: swap;
 }
 
@@ -120,7 +120,7 @@ p {
 }
 
 .hero-section .content h2 {
-  font-family: "BIG SHOT";
+  font-family: "shout out";
   font-size: 47px;
   font-weight: 400;
   line-height: 54.83px;
@@ -132,7 +132,7 @@ p {
 }
 
 .hero-section .content p {
-  font-family: "Fixedsys Excelsior 3.01";
+  font-family: "fixedsys";
   font-size: 26px;
   font-weight: 400;
   line-height: 33.8px;
@@ -142,7 +142,7 @@ p {
 }
 
 .hero-section .content a {
-  font-family: "BIG SHOT";
+  font-family: "shout out";
   font-size: 25px;
   font-weight: 400;
   line-height: 29.16px;
@@ -171,7 +171,7 @@ p {
 }
 
 .team .content h2 {
-  font-family: "BIG SHOT";
+  font-family: "shout out";
   font-size: 47px;
   font-weight: 400;
   line-height: 54.83px;
@@ -191,7 +191,7 @@ p {
 }
 
 .team .content p {
-  font-family: "Fixedsys Excelsior 3.01";
+  font-family: "fixedsys";
   font-size: 26px;
   font-weight: 400;
   line-height: 31.2px;
@@ -230,7 +230,7 @@ p {
 }
 
 .testimonial h2 {
-  font-family: "BIG SHOT";
+  font-family: "shout out";
   font-size: 47px;
   font-weight: 400;
   line-height: 54.83px;
@@ -242,7 +242,7 @@ p {
 }
 
 .testimonial p {
-  font-family: "Fixedsys Excelsior 3.01";
+  font-family: "fixedsys";
   font-size: 26px;
   font-weight: 400;
   line-height: 31.2px;
@@ -272,7 +272,7 @@ p {
   overflow: hidden;
 }
 .team .cards .box .content-box h2 {
-  font-family: "BIG SHOT";
+  font-family: "shout out";
   font-size: 32px;
   font-weight: 400;
   line-height: 37.33px;
@@ -287,7 +287,7 @@ p {
   object-fit: contain;
 }
 .team .cards .box .content-box span {
-  font-family: "BIG SHOT";
+  font-family: "shout out";
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
@@ -320,7 +320,7 @@ p {
 }
 
 .team .cards .box .content-box p {
-  font-family: "Fixedsys Excelsior 3.01";
+  font-family: "fixedsys";
   font-size: 24px;
   font-weight: 400;
   line-height: 28.8px;
@@ -342,7 +342,7 @@ p {
 }
 
 .ready .content h2 {
-  font-family: "BIG SHOT";
+  font-family: "shout out";
   font-size: 70px;
   font-weight: 400;
   line-height: 81.66px;
@@ -356,7 +356,7 @@ p {
 }
 
 .ready .content p {
-  font-family: "Fixedsys Excelsior 3.01";
+  font-family: "fixedsys";
   font-size: 24px;
   font-weight: 400;
   line-height: 28.8px;
@@ -370,7 +370,7 @@ p {
 }
 
 .ready .content button {
-  font-family: "Fixedsys Excelsior 3.01";
+  font-family: "fixedsys";
   font-size: 25px;
   font-weight: 400;
   line-height: 25px;
@@ -389,7 +389,7 @@ p {
 }
 
 .footer-box p {
-  font-family: "Fixedsys Excelsior 3.01";
+  font-family: "fixedsys";
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -693,7 +693,7 @@ p {
   }
 
   .mobile p {
-    font-family: "Fixedsys Excelsior 3.01";
+    font-family: "fixedsys";
     font-size: 12px;
     font-weight: 400;
     line-height: 14.4px;
@@ -749,7 +749,7 @@ p {
   }
 
   .ready .content button {
-    font-family: "Fixedsys Excelsior 3.01";
+    font-family: "fixedsys";
     font-size: 16px;
     padding: 6px 19px;
     border-radius: 16px;
