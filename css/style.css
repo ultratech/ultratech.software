@@ -1,12 +1,12 @@
 @font-face {
   font-family: "fixedsys";
-  src: url("../fonts/fixedsys.woff2"), url("../fonts/Fixedsys.woff");
+  src: url("../fonts/fixedsys.woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: "shout out";
-  src: url("../fonts/shout-out.woff2"), url("../fonts/shout-out.woff");
+  src: url("../fonts/shout-out.woff2");
   font-display: swap;
 }
 
