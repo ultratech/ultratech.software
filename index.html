@@ -1,236 +1,321 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ultratech Software</title>
+    <meta
+      name="description"
+      content="Ultratech Software is a company focused on developing advanced software solutions. We specialize in
+  embedded systems, desktop applications, gaming, distributed computing, and cloud computing."
+    />
+    <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ultratech Software</title>
-  <meta name="description" content="Ultratech Software is a company focused on developing advanced software solutions. We specialize in
-  embedded systems, desktop applications, gaming, distributed computing, and cloud computing.">
-  <link rel="stylesheet" href="./css/slider.css">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-
-<body>
-  <section class="hero-section">
-    <div class="container">
-      <div class="row">
-        <div class="column">
-          <div class="image-box text-center"> 
-            <img src="./img/counter.avif" srcset="./img/counter.avif 400w, ./img/counter-small.avif 150w" sizes="(max-width:768px) 144px, 331px" alt="A desktop computer" class="image-fluid desktop" height="350" width="250">
-            <div class="product-shadow"></div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="content">
-            <h2>Ultratech Software</h2>
-            <p>Ultratech Software is a company focused on developing advanced software solutions. We specialize in
-              embedded systems, desktop applications, gaming, distributed computing, and cloud computing. We are
-              experts in C, C++, Python, Go, TypeScript including Node.js and Nest.js, React with Next.js, Kubernetes,
-              and serverless technologies like cloud functions and lambda. </p>
-            <a href="#" aria-label="Know-more">Know more&gt;&gt;&gt;</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="testimonial">
-    <div class="container">
-      <div class="row">
-        <div class="column testimonial-heading">
-          <h2>Explore <span>Our Expertise</span></h2>
-        </div>
-        <div class="column testimonial-sub-heading">
-          <p>From Redis to TensorFlow, explore databases, Big Data, and machine learning with us.</p>
-        </div>
-      </div>
-    </div>
-    <div class="testimonial-content">
-      <div class="container">
-        <div class="wrapper">
-          <ul class="carousel">
-            <li class="card" id="ome">
-              <h3>Database Expertise</h3>
-              <p>Benefit from our mastery of NoSQL (Redis, DynamoDB, Cosmos, Firestore) and SQL (Postgres with
-                Timescale) databases for efficient data management and analytics.</p>
-
-              <a href="#" class="Know-more">Know more&gt;&gt;&gt;</a>
-            </li>
-            <li class="card">
-              <h3>Big Data & Analytics</h3>
-              <p>Leverage our expertise in BigQuery and cutting-edge tools (Pandas, NumPy, TensorFlow) to unlock
-                insights from vast datasets, driving informed decision-making.</p>
-
-              <a href="#" class="Know-more">Know more&gt;&gt;&gt;</a>
-            </li>
-            <li class="card">
-              <h3>Machine Learning</h3>
-              <p>Discover how our machine learning solutions can transform your data into actionable insights with
-                technologies like TensorFlow and Scikit-Learn.</p>
-
-              <a href="#" class="Know-more">Know more&gt;&gt;&gt;</a>
-            </li>
-          </ul>
-          <div class="indicator">
-            <span class="button active"></span>
-            <span class="button"><a href="#ome"></a></span>
-            <span class="button "></span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="team">
-    <div class="container">
-      <div class="row">
-        <div class="column column-1">
-          <div class="content">
-            <h2>Meet Our Team</h2>
-            <p>At Ultratech Software, our team is comprised of dedicated professionals with a passion for innovation and
-              excellence.</p>
-          </div>
-        </div>
-        <div class="column column-2">
-          <div class="cards">
-            <div class="box">
-              <div class="image-box"> <img src="./img/team1.avif" alt="John Doe" height="250" width="200"> </div>
-              <div class="content-box">
-                <h2>John Doe</h2>
-                <span>Lead Software Engineer</span>
-                <p class="desktop desktop-paragraph">With 10+ years' experience, John drives our team to exceed client expectations with
-                  innovative solutions.</p>
-              </div>
-              <div class="mobile">
-                <p>With 10+ years' experience, John drives our team to exceed client expectations with innovative
-                  solutions.</p>
-              </div>
-            </div>
-            <div class="box">
-              <div class="image-box"> <img src="./img/team2.avif" alt="Emily Smith" height="250" width="200"> </div>
-              <div class="content-box">
-                <h2>Emily Smith</h2>
-                <span>Data Scientist</span>
-                <p class="desktop desktop-paragraph">Emily is a passionate data scientist with a background in machine learning and
-                  analytics. </p>
-              </div>
-              <div class="mobile">
-                <p>Emily is a passionate data scientist with a background in machine learning and analytics. </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="ready">
-    <div class="coverr">
+  <body>
+    <section class="hero-section">
       <div class="container">
         <div class="row">
-          <div class="column ready-section-column-left">
-            <div class="content">
-              <h2>Ready to Transform <span>Your Business?</span></h2>
-              <p>Get in touch with our experts today to discuss your project requirements and take the first step
-                towards digital transformation.</p>
-              <a href="#" aria-label="Get-in-Touch">
-                <button> Get in touch </button>
-              </a>
+          <div class="column">
+            <div class="image-box text-center">
+              <img
+                src="./img/counter.avif"
+                srcset="./img/counter.avif 400w, ./img/counter-small.avif 150w"
+                sizes="(max-width:768px) 144px, 331px"
+                alt="A desktop computer"
+                class="image-fluid desktop"
+                height="350"
+                width="250"
+              />
+              <div class="product-shadow"></div>
             </div>
           </div>
-          <div class="column text-center ready-section-column-right"> 
-            <img src="./img/counter.avif" alt="A desktop computer" 
-              class="image-fluid desktop desktop-footer" height="350" width="250"> 
-            <img src="./img/cc-m.avif" alt="A desktop computer" class="image-fluid mobile" height="250" width="200"> </div>
+          <div class="column">
+            <div class="content">
+              <h2>Ultratech Software</h2>
+              <p>
+                Ultratech Software is a company focused on developing advanced
+                software solutions. We specialize in embedded systems, desktop
+                applications, gaming, distributed computing, and cloud
+                computing. We are experts in C, C++, Python, Go, TypeScript
+                including Node.js and Nest.js, React with Next.js, Kubernetes,
+                and serverless technologies like cloud functions and lambda.
+              </p>
+              <a href="#" aria-label="Know-more">Know more&gt;&gt;&gt;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonial">
+      <div class="container">
+        <div class="row">
+          <div class="column testimonial-heading">
+            <h2>Explore <span>Our Expertise</span></h2>
+          </div>
+          <div class="column testimonial-sub-heading">
+            <p>
+              From Redis to TensorFlow, explore databases, Big Data, and machine
+              learning with us.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-content">
+        <div class="container">
+          <div class="wrapper">
+            <ul class="carousel">
+              <li class="card" id="ome">
+                <h3>Database Expertise</h3>
+                <p>
+                  Benefit from our mastery of NoSQL (Redis, DynamoDB, Cosmos,
+                  Firestore) and SQL (Postgres with Timescale) databases for
+                  efficient data management and analytics.
+                </p>
+
+                <a href="#" class="Know-more">Know more&gt;&gt;&gt;</a>
+              </li>
+              <li class="card">
+                <h3>Big Data & Analytics</h3>
+                <p>
+                  Leverage our expertise in BigQuery and cutting-edge tools
+                  (Pandas, NumPy, TensorFlow) to unlock insights from vast
+                  datasets, driving informed decision-making.
+                </p>
+
+                <a href="#" class="Know-more">Know more&gt;&gt;&gt;</a>
+              </li>
+              <li class="card">
+                <h3>Machine Learning</h3>
+                <p>
+                  Discover how our machine learning solutions can transform your
+                  data into actionable insights with technologies like
+                  TensorFlow and Scikit-Learn.
+                </p>
+
+                <a href="#" class="Know-more">Know more&gt;&gt;&gt;</a>
+              </li>
+            </ul>
+            <div class="indicator">
+              <span class="button active"></span>
+              <span class="button"><a href="#ome"></a></span>
+              <span class="button"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="team">
+      <div class="container">
+        <div class="row">
+          <div class="column column-1">
+            <div class="content">
+              <h2>Meet Our Team</h2>
+              <p>
+                At Ultratech Software, our team is comprised of dedicated
+                professionals with a passion for innovation and excellence.
+              </p>
+            </div>
+          </div>
+          <div class="column column-2">
+            <div class="cards">
+              <div class="box">
+                <div class="image-box">
+                  <img
+                    src="./img/team1.avif"
+                    alt="John Doe"
+                    height="250"
+                    width="200"
+                  />
+                </div>
+                <div class="content-box">
+                  <h2>John Doe</h2>
+                  <span>Lead Software Engineer</span>
+                  <p class="desktop desktop-paragraph">
+                    With 10+ years' experience, John drives our team to exceed
+                    client expectations with innovative solutions.
+                  </p>
+                </div>
+                <div class="mobile">
+                  <p>
+                    With 10+ years' experience, John drives our team to exceed
+                    client expectations with innovative solutions.
+                  </p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="image-box">
+                  <img
+                    src="./img/team2.avif"
+                    alt="Emily Smith"
+                    height="250"
+                    width="200"
+                  />
+                </div>
+                <div class="content-box">
+                  <h2>Emily Smith</h2>
+                  <span>Data Scientist</span>
+                  <p class="desktop desktop-paragraph">
+                    Emily is a passionate data scientist with a background in
+                    machine learning and analytics.
+                  </p>
+                </div>
+                <div class="mobile">
+                  <p>
+                    Emily is a passionate data scientist with a background in
+                    machine learning and analytics.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ready">
+      <div class="coverr">
+        <div class="container">
+          <div class="row">
+            <div class="column ready-section-column-left">
+              <div class="content">
+                <h2>Ready to Transform <span>Your Business?</span></h2>
+                <p>
+                  Get in touch with our experts today to discuss your project
+                  requirements and take the first step towards digital
+                  transformation.
+                </p>
+                <a href="#" aria-label="Get-in-Touch">
+                  <button>Get in touch</button>
+                </a>
+              </div>
+            </div>
+            <div class="column text-center ready-section-column-right">
+              <img
+                src="./img/counter.avif"
+                alt="A desktop computer"
+                class="image-fluid desktop desktop-footer"
+                height="350"
+                width="250"
+              />
+              <img
+                src="./img/cc-m.avif"
+                alt="A desktop computer"
+                class="image-fluid mobile"
+                height="250"
+                width="200"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shap-desktop-version"></div>
+      <div class="shap-mobile-version"></div>
+    </section>
+    <div class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <p>@2024 Ultratech Software. All Rights Reserved.</p>
+          <a href="#" aria-label="email-us"
+            ><img
+              src="./img/mail.svg"
+              alt="A call to action mail button"
+              class="image-fluid"
+              height="55"
+              width="55"
+          /></a>
         </div>
       </div>
     </div>
-    <div class="shap-desktop-version"></div>
-    <div class= "shap-mobile-version"></div>
-  </section>
-  <div class="footer">
-    <div class="container">
-      <div class="footer-box">
-        <p>@2024 Ultratech Software. All Rights Reserved.</p>
-        <a href="#" aria-label="email-us"><img src="./img/mail.svg" alt="A call to action mail button" class="image-fluid" height="55" width="55"></a>
-      </div>
-    </div>
-  </div>
 
-  <script>
-    const wrapper = document.querySelector(".wrapper");
-    const carousel = document.querySelector(".carousel");
-    const firstCardWidth = carousel.querySelector(".card").offsetWidth;
-    const arrowBtns = document.querySelectorAll(".wrapper i");
-    const carouselChildrens = [...carousel.children];
+    <script>
+      const wrapper = document.querySelector(".wrapper");
+      const carousel = document.querySelector(".carousel");
+      const firstCardWidth = carousel.querySelector(".card").offsetWidth;
+      const arrowBtns = document.querySelectorAll(".wrapper i");
+      const carouselChildrens = [...carousel.children];
 
-    let isDragging = false, isAutoPlay = true, startX, startScrollLeft, timeoutId;
+      let isDragging = false,
+        isAutoPlay = true,
+        startX,
+        startScrollLeft,
+        timeoutId;
 
-    let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
+      let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
 
-    carouselChildrens.slice(-cardPerView).reverse().forEach(card => {
-      carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
-    });
+      carouselChildrens
+        .slice(-cardPerView)
+        .reverse()
+        .forEach((card) => {
+          carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
+        });
 
-    carouselChildrens.slice(0, cardPerView).forEach(card => {
-      carousel.insertAdjacentHTML("beforeend", card.outerHTML);
-    });
-
-    carousel.classList.add("no-transition");
-    carousel.scrollLeft = carousel.offsetWidth;
-    carousel.classList.remove("no-transition");
-
-    arrowBtns.forEach(btn => {
-      btn.addEventListener("click", () => {
-        carousel.scrollLeft += btn.id == "left" ? -firstCardWidth : firstCardWidth;
+      carouselChildrens.slice(0, cardPerView).forEach((card) => {
+        carousel.insertAdjacentHTML("beforeend", card.outerHTML);
       });
-    });
 
-    const dragStart = (e) => {
-      isDragging = true;
-      carousel.classList.add("dragging");
-      startX = e.pageX;
-      startScrollLeft = carousel.scrollLeft;
-    }
+      carousel.classList.add("no-transition");
+      carousel.scrollLeft = carousel.offsetWidth;
+      carousel.classList.remove("no-transition");
 
-    const dragging = (e) => {
-      if (!isDragging) return;
-      carousel.scrollLeft = startScrollLeft - (e.pageX - startX);
-    }
+      arrowBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          carousel.scrollLeft +=
+            btn.id == "left" ? -firstCardWidth : firstCardWidth;
+        });
+      });
 
-    const dragStop = () => {
-      isDragging = false;
-      carousel.classList.remove("dragging");
-    }
+      const dragStart = (e) => {
+        isDragging = true;
+        carousel.classList.add("dragging");
+        startX = e.pageX;
+        startScrollLeft = carousel.scrollLeft;
+      };
 
-    const infiniteScroll = () => {
-      if (carousel.scrollLeft === 0) {
-        carousel.classList.add("no-transition");
-        carousel.scrollLeft = carousel.scrollWidth - (2 * carousel.offsetWidth);
-        carousel.classList.remove("no-transition");
-      } else if (Math.ceil(carousel.scrollLeft) === carousel.scrollWidth - carousel.offsetWidth) {
-        carousel.classList.add("no-transition");
-        carousel.scrollLeft = carousel.offsetWidth;
-        carousel.classList.remove("no-transition");
-      }
+      const dragging = (e) => {
+        if (!isDragging) return;
+        carousel.scrollLeft = startScrollLeft - (e.pageX - startX);
+      };
 
-      clearTimeout(timeoutId);
-      if (!wrapper.matches(":hover")) autoPlay();
-    }
+      const dragStop = () => {
+        isDragging = false;
+        carousel.classList.remove("dragging");
+      };
 
-    const autoPlay = () => {
-      if (window.innerWidth < 800 || !isAutoPlay) return;
-      timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 2500);
-    }
-    autoPlay();
+      const infiniteScroll = () => {
+        if (carousel.scrollLeft === 0) {
+          carousel.classList.add("no-transition");
+          carousel.scrollLeft = carousel.scrollWidth - 2 * carousel.offsetWidth;
+          carousel.classList.remove("no-transition");
+        } else if (
+          Math.ceil(carousel.scrollLeft) ===
+          carousel.scrollWidth - carousel.offsetWidth
+        ) {
+          carousel.classList.add("no-transition");
+          carousel.scrollLeft = carousel.offsetWidth;
+          carousel.classList.remove("no-transition");
+        }
 
-    carousel.addEventListener("mousedown", dragStart);
-    carousel.addEventListener("mousemove", dragging);
-    document.addEventListener("mouseup", dragStop);
-    carousel.addEventListener("scroll", infiniteScroll);
-    wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
-    wrapper.addEventListener("mouseleave", autoPlay);
-  </script>
+        clearTimeout(timeoutId);
+        if (!wrapper.matches(":hover")) autoPlay();
+      };
 
-</body>
+      const autoPlay = () => {
+        if (window.innerWidth < 800 || !isAutoPlay) return;
+        timeoutId = setTimeout(
+          () => (carousel.scrollLeft += firstCardWidth),
+          2500,
+        );
+      };
+      autoPlay();
 
+      carousel.addEventListener("mousedown", dragStart);
+      carousel.addEventListener("mousemove", dragging);
+      document.addEventListener("mouseup", dragStop);
+      carousel.addEventListener("scroll", infiniteScroll);
+      wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
+      wrapper.addEventListener("mouseleave", autoPlay);
+    </script>
+  </body>
 </html>

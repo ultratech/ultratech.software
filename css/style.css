@@ -1,855 +1,833 @@
 @font-face {
-    font-family: "Fixedsys Excelsior 3.01";
-    src: url('../fonts/FSEX300.woff2'),
-    url('../fonts/FSEX300.woff');
-    font-display: swap;
+  font-family: "Fixedsys Excelsior 3.01";
+  src: url("../fonts/FSEX300.woff2"), url("../fonts/FSEX300.woff");
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'BIG SHOT';
-    src: url('../fonts/big-shot.woff2')
-    ,url('../fonts/big-shot.woff');
-    font-display: swap;
+  font-family: "BIG SHOT";
+  src: url("../fonts/big-shot.woff2"), url("../fonts/big-shot.woff");
+  font-display: swap;
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .container {
-    width: 1140px;
-    margin: 0px auto;
+  width: 1140px;
+  margin: 0px auto;
 }
 
-.row>div {
-    width: calc(50% - 13px);
-    padding: 13px;
+.row > div {
+  width: calc(50% - 13px);
+  padding: 13px;
 }
 
 .row {
-    display: flex;
+  display: flex;
 }
 
 .image-fluid {
-    max-width: 100%;
-    object-fit: contain;
+  max-width: 100%;
+  object-fit: contain;
 }
 .hero-section {
-	background: #000000;
-	padding: 70px 0px;
-	padding-bottom: 61px;
+  background: #000000;
+  padding: 70px 0px;
+  padding-bottom: 61px;
 }
 
-.wrapper .slider{
-    transform: translate(42px, 18px);
+.wrapper .slider {
+  transform: translate(42px, 18px);
 }
 
 h2,
 h4 {
-    margin: 0px;
+  margin: 0px;
 }
 
 p {
-    margin: 0px;
+  margin: 0px;
 }
 
-@media screen and (min-width:1920px) {
-    .container {
-        width: 1600px;
-    }
+@media screen and (min-width: 1920px) {
+  .container {
+    width: 1600px;
+  }
 }
 
-@media screen and (min-width:1720px) {
-    .container {
-        width: 1600px;
-    }
+@media screen and (min-width: 1720px) {
+  .container {
+    width: 1600px;
+  }
 }
 
-
-@media screen and (max-width:1620px) {
-    .container {
-        width: 1140px;
-    }
-
-
+@media screen and (max-width: 1620px) {
+  .container {
+    width: 1140px;
+  }
 }
 
-@media screen and (max-width:1320px) {
-    .container {
-        width: 1100px;
-    }
+@media screen and (max-width: 1320px) {
+  .container {
+    width: 1100px;
+  }
 }
 
-@media screen and (max-width:1100px) {
-    .container {
-        width: 950px;
-    }
+@media screen and (max-width: 1100px) {
+  .container {
+    width: 950px;
+  }
 }
 
-@media screen and (max-width:980px) {
-    .row {
-        flex-direction: column;
-    }
+@media screen and (max-width: 980px) {
+  .row {
+    flex-direction: column;
+  }
 
-    .container {
-        width: 768px;
-    }
+  .container {
+    width: 768px;
+  }
 
-    .row>div {
-        width: calc(100% - 13px);
-        padding: 13px;
-    }
+  .row > div {
+    width: calc(100% - 13px);
+    padding: 13px;
+  }
 }
 
-@media screen and (max-width:816px) {
-    .container {
-        width: 620px;
-    }
+@media screen and (max-width: 816px) {
+  .container {
+    width: 620px;
+  }
 }
 
-@media screen and (max-width:660px) {
-    .container {
-        width: 100%;
-    }
+@media screen and (max-width: 660px) {
+  .container {
+    width: 100%;
+  }
 
-    .row>div {
-        width: calc(100% - 37px);
-        padding: 2px 18px;
-    }
+  .row > div {
+    width: calc(100% - 37px);
+    padding: 2px 18px;
+  }
 }
 
 .hero-section .content {
-    padding-left: 54px;
+  padding-left: 54px;
 }
 
 .hero-section .content h2 {
-    font-family: 'BIG SHOT';
-    font-size: 47px;
-    font-weight: 400;
-    line-height: 54.83px;
-    text-align: left;
-    color: #00AE3D;
-    text-transform: uppercase;
-    margin-bottom: 27px;
-    margin-top: 16px;
+  font-family: "BIG SHOT";
+  font-size: 47px;
+  font-weight: 400;
+  line-height: 54.83px;
+  text-align: left;
+  color: #00ae3d;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+  margin-top: 16px;
 }
 
 .hero-section .content p {
-    font-family: 'Fixedsys Excelsior 3.01';
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 33.8px;
-    text-align: left;
-    color: #FFFFFF;
-    margin-bottom: 30px;
+  font-family: "Fixedsys Excelsior 3.01";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 33.8px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 30px;
 }
 
-
 .hero-section .content a {
-    font-family: 'BIG SHOT';
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 29.16px;
-    text-align: left;
-    color: #00AE3D;
-    text-transform: uppercase;
-    text-decoration: none;
+  font-family: "BIG SHOT";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29.16px;
+  text-align: left;
+  color: #00ae3d;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .text-end {
-    text-align: end;
+  text-align: end;
 }
 
 .team {
-    background: #000000;
-    padding-top: 100px;
-    padding-bottom: 50px;
+  background: #000000;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .team .column.column-1 {
-    width: 40%;
+  width: 40%;
 }
 
 .team .column.column-2 {
-    width: 55%;
+  width: 55%;
 }
 
 .team .content h2 {
-    font-family: 'BIG SHOT';
-    font-size: 47px;
-    font-weight: 400;
-    line-height: 54.83px;
-    text-align: left;
-    color: #00AE3D;
-    text-transform: uppercase;
-    margin-bottom: 27px;
+  font-family: "BIG SHOT";
+  font-size: 47px;
+  font-weight: 400;
+  line-height: 54.83px;
+  text-align: left;
+  color: #00ae3d;
+  text-transform: uppercase;
+  margin-bottom: 27px;
 }
 
 .team .content {
-    width: 543px;
-    margin-top: 30px;
+  width: 543px;
+  margin-top: 30px;
 }
 
 .image-fluid.mobile {
-    display: none;
+  display: none;
 }
 
 .team .content p {
-    font-family: 'Fixedsys Excelsior 3.01';
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 31.2px;
-    text-align: left;
-    color: #FFFFFF;
+  font-family: "Fixedsys Excelsior 3.01";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 31.2px;
+  text-align: left;
+  color: #ffffff;
 }
 
 .team .cards .box {
-    display: flex;
-    background: linear-gradient(93deg, rgba(14, 14, 14, 0.4) 20.34%, rgba(52, 52, 52, 0.5) 97.91%);
-    border-radius: 30px;
-    margin-bottom: 47px;
-    align-items: center;
+  display: flex;
+  background: linear-gradient(
+    93deg,
+    rgba(14, 14, 14, 0.4) 20.34%,
+    rgba(52, 52, 52, 0.5) 97.91%
+  );
+  border-radius: 30px;
+  margin-bottom: 47px;
+  align-items: center;
 }
 
 .team .cards .box .content-box {
-    padding: 36px 38px;
-    width: 66%;
+  padding: 36px 38px;
+  width: 66%;
 }
 
 .team .cards .box .image-box img {
-    width: 100%;
-    height: 100%;
-    border-radius: 19px;
-    border: 11px solid #00AE3D;
-    box-sizing: border-box;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 19px;
+  border: 11px solid #00ae3d;
+  box-sizing: border-box;
+  object-fit: cover;
 }
 
-
 .ready .content {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
 .testimonial h2 {
-    font-family: 'BIG SHOT';
-font-size: 47px;
-font-weight: 400;
-line-height: 54.83px;
-text-align: left;
-color: #00AE3D;
+  font-family: "BIG SHOT";
+  font-size: 47px;
+  font-weight: 400;
+  line-height: 54.83px;
+  text-align: left;
+  color: #00ae3d;
 }
 .testimonial h2 span {
-	display: block;
+  display: block;
 }
 
 .testimonial p {
-    font-family: 'Fixedsys Excelsior 3.01';
-font-size: 26px;
-font-weight: 400;
-line-height: 31.2px;
-text-align: left;
-color: #fff;
+  font-family: "Fixedsys Excelsior 3.01";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 31.2px;
+  text-align: left;
+  color: #fff;
 }
 
 .mobile {
-    display: none;
+  display: none;
 }
 
 .testimonial .testimonial-content {
-	position: relative;
+  position: relative;
 }
 
 .hero-section .image-box img.desktop {
-    height: auto;
-    width: 336px;
-    object-fit: contain;
+  height: auto;
+  width: 336px;
+  object-fit: contain;
 }
 
 .testimonial {
-	background: #141414;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	position: relative;
-	overflow: hidden;
+  background: #141414;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  overflow: hidden;
 }
 .team .cards .box .content-box h2 {
-    font-family: 'BIG SHOT';
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 37.33px;
-    text-align: left;
-    color: #00AE3D;
-    text-transform: uppercase;
-    margin-bottom: 10px;
+  font-family: "BIG SHOT";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 37.33px;
+  text-align: left;
+  color: #00ae3d;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .image-fluid.desktop {
-	width: 65%;
-    height: auto;
-    object-fit: contain;
+  width: 65%;
+  height: auto;
+  object-fit: contain;
 }
 .team .cards .box .content-box span {
-    font-family: 'BIG SHOT';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21px;
-    text-align: left;
-    color: #FFFFFF;
-    margin-bottom: 24px;
-    display: block;
+  font-family: "BIG SHOT";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 24px;
+  display: block;
 }
 
 .team .cards .box .image-box {
-    width:100%;
-    height: auto;
-    object-position: center;
-    object-fit: contain;
+  width: 100%;
+  height: auto;
+  object-position: center;
+  object-fit: contain;
 }
 .ready .desktop {
-	width: 332px;
-    object-fit: contain;
-	position: relative;
-	z-index: 1;
+  width: 332px;
+  object-fit: contain;
+  position: relative;
+  z-index: 1;
 }
 
 .coverr {
-	padding: 100px 0px;
+  padding: 100px 0px;
 }
 .team .cards .box .image-box {
-    width: 34%;
-    height: auto;
-    border-radius: 30px;
+  width: 34%;
+  height: auto;
+  border-radius: 30px;
 }
 
 .team .cards .box .content-box p {
-    font-family: 'Fixedsys Excelsior 3.01';
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 28.8px;
-    text-align: left;
-    color: #FFFFFF;
+  font-family: "Fixedsys Excelsior 3.01";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  color: #ffffff;
 }
 
 .ready .ready-section-column-left {
-    width: 60%;
+  width: 60%;
 }
 
 .ready .ready-section-column-right {
-    width: 40%;
+  width: 40%;
 }
 
 .ready {
-    background: linear-gradient(0deg, #009735, #009735);
-    position: relative;
+  background: linear-gradient(0deg, #009735, #009735);
+  position: relative;
 }
 
 .ready .content h2 {
-    font-family: 'BIG SHOT';
-    font-size: 70px;
-    font-weight: 400;
-    line-height: 81.66px;
-    text-align: left;
-    color: #FFFFFF;
-    text-transform: uppercase;
+  font-family: "BIG SHOT";
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 81.66px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .ready .content h2 span {
-    display: block;
+  display: block;
 }
 
 .ready .content p {
-    font-family: 'Fixedsys Excelsior 3.01';
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 28.8px;
-    text-align: left;
-    color: #FFFFFF;
-    margin-top: 20px;
+  font-family: "Fixedsys Excelsior 3.01";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 20px;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
-
 .ready .content button {
-	font-family: 'Fixedsys Excelsior 3.01';
-	font-size: 25px;
-	font-weight: 400;
-	line-height: 25px;
-	text-align: center;
-	color: #FFFFFF;
-	background: transparent;
-	padding: 14px 38px;
-	border-radius: 7px;
-	border: 6px solid #F7E7DA;
-	margin-top: 53px;
-	cursor: pointer;
+  font-family: "Fixedsys Excelsior 3.01";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  background: transparent;
+  padding: 14px 38px;
+  border-radius: 7px;
+  border: 6px solid #f7e7da;
+  margin-top: 53px;
+  cursor: pointer;
 }
 
 .footer {
-    background: #000;
+  background: #000;
 }
 
 .footer-box p {
-    font-family: 'Fixedsys Excelsior 3.01';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: -0.006em;
-    text-align: left;
-    color: #FFFFFF;
+  font-family: "Fixedsys Excelsior 3.01";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.006em;
+  text-align: left;
+  color: #ffffff;
 }
 
 .product-shadow {
-    background: #00AE3D4D;
-    width: 100%;
-    height: 119px;
-    border-radius: 50%;
-    margin-top: -61px;
+  background: #00ae3d4d;
+  width: 100%;
+  height: 119px;
+  border-radius: 50%;
+  margin-top: -61px;
 }
 
 .footer-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 17px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 0px;
 }
 
-@media screen and (max-width:1620px) {
-    .hero-section .content h2 {
-        font-size: 39px;
-        line-height: 54.83px;
-        margin-bottom: 11px;
-        margin-top: 16px;
-    }
-
-    .team .content {
-        width: 379px;
-        margin-top: 30px;
-    }
-
-    .team .content h2 {
-        font-size: 39px;
-        line-height: 48.83px;
-        margin-bottom: 9px;
-    }
-
-    .ready .content h2 {
-        font-size: 53px;
-        line-height: 69.66px;
-    }
-
-    .team .cards .box .content-box {
-        width: 60%;
-    }
-
-    .team .cards .box {
-        align-items: normal;
-    }
-
-    .team .cards .box .content-box p {
-        font-size: 20px;
-        line-height: 25.8px;
-
-
-    }
-
-    .team .cards .box .content-box span {
-        font-size: 16px;
-        line-height: 18px;
-        margin-bottom: 7px;
-    }
-
-    .team .cards .box .content-box p {
-        font-size: 20px;
-        line-height: 25.8px;
-    }
-
-    .team .cards .box .image-box {
-        width: 35%;
-    }
-
-    .team .cards .box .content-box {
-        padding: 28px 25px;
-        width:calc(65% - 25px);
-    }
-
-    .team .content p {
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 29.2px;
-    }
-
-
-    .hero-section .content p {
-        font-size: 24px;
-        line-height: 28.8px;
-        margin-bottom: 30px;
-    }
-
-    .hero-section .content {
-        padding-left: 23px;
-    }
-}
-
-
-@media screen and (max-width:1320px) {
-    .hero-section .content h2 {
-        font-size: 41px;
-        line-height: 43.83px;
-    }
-
-    .hero-section .content p {
-        font-size: 24px;
-        line-height: 29.8px;
-    }
-
-    .team .content h2 {
-        font-size: 41px;
-    }
-
-    .team .content p {
-        font-size: 24px;
-        line-height: 29.2px;
-    }
-
-    .team .cards .box .content-box h4 {
-        font-size: 28px;
-        line-height: 29.33px;
-    }
-
-    .team .cards .box .content-box span {
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 18px;
-    }
-
-    .ready .content h2 {
-        font-size: 41px;
-        line-height: 55.66px;
-    }
-
-    .coverr{
-        padding: 41px 0px;
-    }
-
-    .team .cards .box .content-box p {
-        font-size: 20px;
-        line-height: 25.8px;
-    }
-}
-
-@media screen and (max-width:980px) {
-    .hero-section .content h2 {
-        text-align: center;
-    }
-
-    .team .content h2 {
-        text-align: center;
-        margin-bottom: 2px;
-    }
-
-    .ready .ready-section-column-left {
-        width: 100%;
-    }
-
-    .hero-section .content a {
-        font-size: 18px;
-    }
-
-    .ready .ready-section-column-right {
-        width: 100%;
-        text-align: center;
-    }
-
-    .team .column.column-2 {
-        width: 100%;
-    }
-
-    .team .content p {
-        line-height: 29.2px;
-        text-align: center;
-    }
-
-    .team .column.column-1 {
-        width: 100%;
-    }
-
-    .team {
-        padding-top: 14px;
-    }
-
-    .ready .content h2 {
-        text-align: center;
-    }
-
-    .ready .content button {
-        margin-top: 28px;
-    }
-
-    .hero-section {
-        padding: 25px 0px;
-    }
-
-    .ready .content {
-        text-align: center;
-    }
-
-    .ready .content p {
-        text-align: center;
-    }
-
-    .team .content {
-        width: 100%;
-    }
-
-    .hero-section .content p {
-        text-align: center;
-    }
-
-    .hero-section .content {
-        text-align: center;
-    }
-}
-
-
-@media screen and (max-width:768px) {
-    .image-fluid.mobile {
-        display: block;
-    }
-
-    .circle {
-        display: none;
-    }
-    .ready .content {
-        margin-top: 0px;
-    }
-    .hero-section {
-        padding: 14px 0px;
-        padding-bottom: 44px;
-    }
-
-    .image-fluid.mobile {
-        display: block;
-        margin: 0px auto;
-        position: relative;
-        z-index: 2;
-        object-fit: contain;
-    }
-
-    .hero-section .image-box img.desktop {
-        width: 9rem;
-        height: auto;
-        object-fit: contain;
-    }
-
-    .desktop-footer, .desktop-paragraph{
-        display: none;
-        pointer-events: none;
-    }
-
-
-    .hero-section .content h2 {
-        font-size: 22px;
-        font-weight: 400;
-        line-height: 25.66px;
-        text-align: left;
-
-    }
-
-    .hero-section .content {
-        padding-left: 0px;
-        text-align: left;
-    }
-
-    .hero-section .content p {
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 18.2px;
-        text-align: left;
-        margin-bottom: 10px;
-    }
-
-    .hero-section .content a {
-        font-size: 14px;
-    }
-
-    .team .content h2 {
-        font-size: 22px;
-        font-weight: 400;
-        line-height: 27.32px;
-        text-align: left;
-
-    }
-
-    .team .content p {
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 18.2px;
-        text-align: left;
-        margin-bottom: 20px;
-    }
-
-    .mobile {
-        display: block;
-        padding-top: 10px;
-    }
-
-    .team .cards .box {
-        display: block;
-        margin-bottom: 28px;
-        padding: 20px;
-    }
-
-    .mobile p {
-        font-family: 'Fixedsys Excelsior 3.01';
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 14.4px;
-        text-align: left;
-        color: #fff;
-            }
-
-    .team .cards .box .content-box {
-        padding: 0px;
-        width: 50%;
-    }
-
-    .team .cards .box .image-box {
-        display: inline-block;
-        width: 30%;
-    }
-    .team .cards .box .content-box {
-        display: inline-block;
-        width: 46%;
-        position: relative;
-        top: -10px;
-        padding-left: 33px;
-    }
- 
-
-    .team .cards .box .content-box h4 {
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 21px;
-        text-align: left;
-
-    }
-
-    .testimonial {
-        padding-top: 48px;
-        padding-bottom: 48px;
-
-    }
-
-    .team .cards .box .content-box span{
-    font-size: 14px;
+@media screen and (max-width: 1620px) {
+  .hero-section .content h2 {
+    font-size: 39px;
+    line-height: 54.83px;
+    margin-bottom: 11px;
+    margin-top: 16px;
+  }
+
+  .team .content {
+    width: 379px;
+    margin-top: 30px;
+  }
+
+  .team .content h2 {
+    font-size: 39px;
+    line-height: 48.83px;
+    margin-bottom: 9px;
+  }
+
+  .ready .content h2 {
+    font-size: 53px;
+    line-height: 69.66px;
+  }
+
+  .team .cards .box .content-box {
+    width: 60%;
+  }
+
+  .team .cards .box {
+    align-items: normal;
+  }
+
+  .team .cards .box .content-box p {
+    font-size: 20px;
+    line-height: 25.8px;
+  }
+
+  .team .cards .box .content-box span {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 7px;
+  }
+
+  .team .cards .box .content-box p {
+    font-size: 20px;
+    line-height: 25.8px;
+  }
+
+  .team .cards .box .image-box {
+    width: 35%;
+  }
+
+  .team .cards .box .content-box {
+    padding: 28px 25px;
+    width: calc(65% - 25px);
+  }
+
+  .team .content p {
+    font-size: 24px;
     font-weight: 400;
-    line-height: 17.47px;
-    text-align: left;
+    line-height: 29.2px;
+  }
 
-    }
+  .hero-section .content p {
+    font-size: 24px;
+    line-height: 28.8px;
+    margin-bottom: 30px;
+  }
 
-    .ready .content h2{
+  .hero-section .content {
+    padding-left: 23px;
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  .hero-section .content h2 {
+    font-size: 41px;
+    line-height: 43.83px;
+  }
+
+  .hero-section .content p {
+    font-size: 24px;
+    line-height: 29.8px;
+  }
+
+  .team .content h2 {
+    font-size: 41px;
+  }
+
+  .team .content p {
+    font-size: 24px;
+    line-height: 29.2px;
+  }
+
+  .team .cards .box .content-box h4 {
+    font-size: 28px;
+    line-height: 29.33px;
+  }
+
+  .team .cards .box .content-box span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  .ready .content h2 {
+    font-size: 41px;
+    line-height: 55.66px;
+  }
+
+  .coverr {
+    padding: 41px 0px;
+  }
+
+  .team .cards .box .content-box p {
+    font-size: 20px;
+    line-height: 25.8px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .hero-section .content h2 {
+    text-align: center;
+  }
+
+  .team .content h2 {
+    text-align: center;
+    margin-bottom: 2px;
+  }
+
+  .ready .ready-section-column-left {
+    width: 100%;
+  }
+
+  .hero-section .content a {
+    font-size: 18px;
+  }
+
+  .ready .ready-section-column-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .team .column.column-2 {
+    width: 100%;
+  }
+
+  .team .content p {
+    line-height: 29.2px;
+    text-align: center;
+  }
+
+  .team .column.column-1 {
+    width: 100%;
+  }
+
+  .team {
+    padding-top: 14px;
+  }
+
+  .ready .content h2 {
+    text-align: center;
+  }
+
+  .ready .content button {
+    margin-top: 28px;
+  }
+
+  .hero-section {
+    padding: 25px 0px;
+  }
+
+  .ready .content {
+    text-align: center;
+  }
+
+  .ready .content p {
+    text-align: center;
+  }
+
+  .team .content {
+    width: 100%;
+  }
+
+  .hero-section .content p {
+    text-align: center;
+  }
+
+  .hero-section .content {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image-fluid.mobile {
+    display: block;
+  }
+
+  .circle {
+    display: none;
+  }
+  .ready .content {
+    margin-top: 0px;
+  }
+  .hero-section {
+    padding: 14px 0px;
+    padding-bottom: 44px;
+  }
+
+  .image-fluid.mobile {
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    z-index: 2;
+    object-fit: contain;
+  }
+
+  .hero-section .image-box img.desktop {
+    width: 9rem;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .desktop-footer,
+  .desktop-paragraph {
+    display: none;
+    pointer-events: none;
+  }
+
+  .hero-section .content h2 {
     font-size: 22px;
     font-weight: 400;
     line-height: 25.66px;
     text-align: left;
-    }
+  }
 
-    .ready .ready-section-column-left {
-        width: auto;
-    }
+  .hero-section .content {
+    padding-left: 0px;
+    text-align: left;
+  }
 
-    .ready .content button {
-        font-family: 'Fixedsys Excelsior 3.01';
-        font-size: 16px;
-        padding: 6px 19px;
-        border-radius: 16px;
-        border: 4px solid #F7E7DA;
-        margin-top: 50px;
-        margin-top: 24px;
-    }
-    .ready .content {
-        text-align: left;
-    }
-    .ready .content p{
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 18.2px;
-        text-align: left;
+  .hero-section .content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
 
-    }
-    .ready .ready-section-column-right {
-        width: auto;
-        text-align: center;
-        padding-top: 10px;
-    }
-    .team .column.column-2 {
-        width: auto;
-    }
+  .hero-section .content a {
+    font-size: 14px;
+  }
 
-    
-    .team .column.column-1 {
-        width: auto;
-    }
-    .footer-box p {
-        font-size: 12px;
-    }
-    .wrapper .slider {
-        width: 100% !important;
-    }
+  .team .content h2 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27.32px;
+    text-align: left;
+  }
 
-    .footer-box {
-        padding: 6px 17px;
-    }
+  .team .content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
 
-    .footer-box img {
-        width: 38px;
-        height: auto;
-    }
+  .mobile {
+    display: block;
+    padding-top: 10px;
+  }
 
-    .testimonial p {
-        font-size: 14px;
-        line-height: 18.2px;
-    }
+  .team .cards .box {
+    display: block;
+    margin-bottom: 28px;
+    padding: 20px;
+  }
 
-    .team .cards .box .image-box img {
-        border: 4px solid #00AE3D;
-    }
+  .mobile p {
+    font-family: "Fixedsys Excelsior 3.01";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    text-align: left;
+    color: #fff;
+  }
 
-    .team .cards .box .content-box h2 {
-        font-size: 18px;
-        line-height: 21.33px;
-    }
+  .team .cards .box .content-box {
+    padding: 0px;
+    width: 50%;
+  }
 
-    .testimonial h2 {
-        font-size: 22px;
-        line-height: 27.83px;
-    }
+  .team .cards .box .image-box {
+    display: inline-block;
+    width: 30%;
+  }
+  .team .cards .box .content-box {
+    display: inline-block;
+    width: 46%;
+    position: relative;
+    top: -10px;
+    padding-left: 33px;
+  }
 
+  .team .cards .box .content-box h4 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+  }
 
-    .testimonial main {
-        width: 100%;
-    }
+  .testimonial {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
 
-    .testimonial main {
-        width: 100% !important;
-    }
-    .product-shadow{
-        height: 5.5em;
-        width: 90%;
-        margin-left:auto ;
-        margin-right: auto;
-    }
+  .team .cards .box .content-box span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.47px;
+    text-align: left;
+  }
 
+  .ready .content h2 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.66px;
+    text-align: left;
+  }
 
-    
+  .ready .ready-section-column-left {
+    width: auto;
+  }
+
+  .ready .content button {
+    font-family: "Fixedsys Excelsior 3.01";
+    font-size: 16px;
+    padding: 6px 19px;
+    border-radius: 16px;
+    border: 4px solid #f7e7da;
+    margin-top: 50px;
+    margin-top: 24px;
+  }
+  .ready .content {
+    text-align: left;
+  }
+  .ready .content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+  }
+  .ready .ready-section-column-right {
+    width: auto;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .team .column.column-2 {
+    width: auto;
+  }
+
+  .team .column.column-1 {
+    width: auto;
+  }
+  .footer-box p {
+    font-size: 12px;
+  }
+  .wrapper .slider {
+    width: 100% !important;
+  }
+
+  .footer-box {
+    padding: 6px 17px;
+  }
+
+  .footer-box img {
+    width: 38px;
+    height: auto;
+  }
+
+  .testimonial p {
+    font-size: 14px;
+    line-height: 18.2px;
+  }
+
+  .team .cards .box .image-box img {
+    border: 4px solid #00ae3d;
+  }
+
+  .team .cards .box .content-box h2 {
+    font-size: 18px;
+    line-height: 21.33px;
+  }
+
+  .testimonial h2 {
+    font-size: 22px;
+    line-height: 27.83px;
+  }
+
+  .testimonial main {
+    width: 100%;
+  }
+
+  .testimonial main {
+    width: 100% !important;
+  }
+  .product-shadow {
+    height: 5.5em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-.d-none{
-    display: none;
+.d-none {
+  display: none;
 }
-
