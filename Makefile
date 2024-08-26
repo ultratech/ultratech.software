@@ -4,7 +4,7 @@
 
 SHELL := bash -eou pipefail
 
-all: copy modify
+all: copy modify deploy
 
 copy:
 	rm -f index.html
@@ -17,3 +17,7 @@ modify:
 	npx --yes @divriots/jampack .
 	rm -rf .jampack
 	rm -rf  _jampack
+
+deploy:
+	git commit -am 'Work in progress'
+	git push
