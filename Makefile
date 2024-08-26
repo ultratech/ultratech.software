@@ -13,6 +13,7 @@ copy:
 modify:
 	sed -i '' 's/^[[:space:]]*<html>/<html lang="en">/' index.html
 	sed -i '' '/bear-note-unique-identifier/d' index.html
+	sed -i '' '/last device/d' index.html
 	printf '%s\n' '/<meta.*viewport.*>/a\' '<meta name="description" content="Ultratech Software is a company specializing in cutting-edge technology consulting, including embedded development, full stack and backend development, machine learning, and artificial intelligence.">' | sed -i '' -f - index.html
 	npx --yes @divriots/jampack .
 	rm -rf .jampack
